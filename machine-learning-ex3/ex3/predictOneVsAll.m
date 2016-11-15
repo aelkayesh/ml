@@ -29,6 +29,8 @@ X = [ones(m, 1) X];
 %       are in rows, then, you can use max(A, [], 2) to obtain the max 
 %       for each row.
 %       
+p1 = X * all_theta';
+[s, p] = max(p1,[],2);
 
 
 
